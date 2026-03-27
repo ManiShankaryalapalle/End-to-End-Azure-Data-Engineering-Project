@@ -46,3 +46,8 @@ Business-ready analytical views exposed through Synapse Serverless SQL.
 - Raw dataset added
 - Architecture document created
 - Azure implementation in progress
+
+## Dataset
+
+Detailed dataset information available here:  
+👉 [Dataset Documentation](docs/dataset_details.md)
