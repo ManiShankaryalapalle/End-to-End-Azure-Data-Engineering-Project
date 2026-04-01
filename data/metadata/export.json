@@ -1,0 +1,20 @@
+[
+  {
+    "p_rel_url": "ManiShankaryalapalle/End-to-End-Azure-Data-Engineering-Project/main/data/raw/capitals_clean.parquet",
+    "p_sink_folder": "raw/capitals_clean",
+    "p_sink_file": "capitals_clean.parquet",
+    "format": "parquet"
+  },
+  {
+    "p_rel_url": "ManiShankaryalapalle/End-to-End-Azure-Data-Engineering-Project/main/data/raw/history.parquet",
+    "p_sink_folder": "raw/history",
+    "p_sink_file": "history.parquet",
+    "format": "parquet"
+  },
+  {
+    "p_rel_url": "ManiShankaryalapalle/End-to-End-Azure-Data-Engineering-Project/main/data/raw/history_latest.csv",
+    "p_sink_folder": "raw/history_latest",
+    "p_sink_file": "history_latest.csv",
+    "format": "csv"
+  }
+]
