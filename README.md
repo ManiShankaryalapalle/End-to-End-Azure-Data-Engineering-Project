@@ -64,8 +64,7 @@ GitHub Raw Dataset
   - `gold_country_weather_summary`
   - `gold_monthly_country_weather`
   - `gold_hottest_day_by_country`
- 
-     ![Dashboard](screenshots/depowerbi1.png)
+
 
 ---
 
