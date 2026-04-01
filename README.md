@@ -1,4 +1,4 @@
-# End-to-End Azure Data Engineering & Analytics Project
+# End-to-End Azure Data Engineering Pipeline with Power BI Dashboard
 
 ## 🚀 Project Overview
 
