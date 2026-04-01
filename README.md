@@ -82,3 +82,61 @@ This enables:
 ---
 
 ## 📁 Repository Structure
+
+data/
+raw/ → source dataset files
+metadata/ → pipeline configuration (export.json)
+
+docs/ → project documentation
+
+adf/ → Azure Data Factory pipelines (ARM templates)
+
+databricks/ → PySpark transformation notebooks
+
+synapse/ → SQL scripts (views, star schema, gold layer)
+
+powerbi/ → Power BI dashboard (.pbix)
+
+screenshots/ → pipeline and dashboard visuals
+
+---
+
+## 📸 Project Screenshots
+
+(Add images here once uploaded)
+
+- ADF Pipeline  
+- Databricks Transformations  
+- Synapse SQL Modeling  
+- Power BI Dashboard  
+
+---
+
+## ⚠️ Limitations
+### 🔐 Data Access Design (Production vs Project)
+
+Due to tenant-level access limitations, direct Databricks to ADLS integration using Microsoft Entra ID was not feasible.
+
+In this implementation:
+- Data was staged locally after transformation
+- Uploaded manually to ADLS Silver layer
+
+In a production environment:
+- Managed Identity or Service Principal would be used
+- Direct ABFS-based read/write would be implemented
+
+---
+
+## 🔧 Future Improvements
+
+- Implement incremental data loading (watermarking)  
+- Use Delta Lake for upserts and versioning  
+- Materialize Gold layer into ADLS using CETAS  
+- Add CI/CD pipeline using Azure DevOps  
+
+---
+
+## 📊 Dataset
+
+Detailed dataset information available here:  
+👉 [Dataset Documentation](docs/dataset_details.md)
