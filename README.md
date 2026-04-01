@@ -35,7 +35,9 @@ GitHub Raw Dataset
 
 ### 🥉 Bronze Layer
 - Raw dataset ingested from GitHub  
-- Stored in ADLS Gen2 without transformations  
+- Stored in ADLS Gen2 without transformations
+
+  ![Dashboard](screenshots/adlscontainer.png)
 
 ---
 
@@ -45,7 +47,9 @@ GitHub Raw Dataset
 - Example transformations:
   - temperature normalization  
   - derived metrics (e.g., temperature range)  
-  - data standardization  
+  - data standardization
+ 
+    ![Dashboard](screenshots/deadb1.png)
 
 ---
 
@@ -103,12 +107,14 @@ screenshots/ → pipeline and dashboard visuals
 
 ## 📸 Project Screenshots
 
-(Add images here once uploaded)
-
-- ADF Pipeline  
-- Databricks Transformations  
-- Synapse SQL Modeling  
-- Power BI Dashboard  
+### ADF Pipeline  
+![Dashboard](screenshots/dataengineeringadf.png)
+### Databricks Transformations  
+![Dashboard](screenshots/databricks_pyspark_notepad.png)
+### Synapse SQL Modeling  
+![Dashboard](screenshots/depowerbimodelview.png)
+### Power BI Dashboard  
+![Dashboard](screenshots/depowerbi.png)
 
 ---
 
